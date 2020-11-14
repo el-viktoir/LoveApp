@@ -22,6 +22,10 @@ struct ContentView: View {
         Text("testing github 1 2 3")
         
         
+        Text("Is this working on the other pc?")
+        
+        
+        
         
     /*    Text("Endless Lovestory")
             .font(.title)
