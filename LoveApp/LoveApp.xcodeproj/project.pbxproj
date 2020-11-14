@@ -11,7 +11,6 @@
 		A034F0812559F39700DFB118 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A034F0802559F39700DFB118 /* ContentView.swift */; };
 		A034F0832559F39900DFB118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A034F0822559F39900DFB118 /* Assets.xcassets */; };
 		A034F0862559F39900DFB118 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A034F0852559F39900DFB118 /* Preview Assets.xcassets */; };
-		A034F0912559F39900DFB118 /* LoveAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A034F0902559F39900DFB118 /* LoveAppTests.swift */; };
 		A034F09C2559F39900DFB118 /* LoveAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A034F09B2559F39900DFB118 /* LoveAppUITests.swift */; };
 		A034F0AD2559F3DE00DFB118 /* FrontPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A034F0AC2559F3DE00DFB118 /* FrontPage.swift */; };
 		A034F0B52559F54C00DFB118 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A034F0B42559F54C00DFB118 /* MapView.swift */; };
@@ -42,8 +41,6 @@
 		A034F0852559F39900DFB118 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A034F0872559F39900DFB118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A034F08C2559F39900DFB118 /* LoveAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A034F0902559F39900DFB118 /* LoveAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveAppTests.swift; sourceTree = "<group>"; };
-		A034F0922559F39900DFB118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A034F0972559F39900DFB118 /* LoveAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A034F09B2559F39900DFB118 /* LoveAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveAppUITests.swift; sourceTree = "<group>"; };
 		A034F09D2559F39900DFB118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -80,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				A034F07D2559F39700DFB118 /* LoveApp */,
-				A034F08F2559F39900DFB118 /* LoveAppTests */,
 				A034F09A2559F39900DFB118 /* LoveAppUITests */,
 				A034F07C2559F39700DFB118 /* Products */,
 			);
@@ -116,15 +112,6 @@
 				A034F0852559F39900DFB118 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		A034F08F2559F39900DFB118 /* LoveAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				A034F0902559F39900DFB118 /* LoveAppTests.swift */,
-				A034F0922559F39900DFB118 /* Info.plist */,
-			);
-			path = LoveAppTests;
 			sourceTree = "<group>";
 		};
 		A034F09A2559F39900DFB118 /* LoveAppUITests */ = {
@@ -276,7 +263,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A034F0912559F39900DFB118 /* LoveAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
